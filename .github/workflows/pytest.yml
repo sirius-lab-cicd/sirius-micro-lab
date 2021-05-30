@@ -6,7 +6,9 @@ name: Python package
 on:
   pull_request:
     branches: [ developer ]
-
+  
+  workflow_dispatch:
+    
 jobs:
   pytest:
     runs-on: ${{ matrix.os }}
