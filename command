@@ -14,3 +14,5 @@ Steps:
     1.1. git add .
     1.2. git commit -m "my commit"
     1.3. git flow finish <name feature>
+
+2. git flow release start <version release ex: 0.1.0>
